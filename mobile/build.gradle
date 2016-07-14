@@ -5,6 +5,7 @@ android {
     buildToolsVersion "24.0.0"
 
     defaultConfig {
+        multiDexEnabled true
         applicationId "com.example.alextsyganov.androidappfortravis"
         minSdkVersion 15
         targetSdkVersion 24
